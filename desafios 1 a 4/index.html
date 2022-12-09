@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 3035 Teach - Questão 1</title>
+    <script src="funcao.js"></script>
+</head>
+<body>
+    
+    <header>
+        <h4>Descrição:</h4>
+        <p>
+            Função que recebe os valores inseridos pelo usuário, transformando em um Array e retornando
+            o segundo maior número.
+        </p>
+    </header>
+
+    <main>
+        <div style="border-radius: 5px; border: solid gray; background-color:beige; text-align: center; padding: 50px">
+            <h1>Valores</h1>
+            <p>Abaixo selecione um número aleatório e clique em Adicionar. </p>
+            <p>Faça isso 7x para calcular qual é o segundo maior número informado.</p>
+            <input type="number" id="valores" placeholder="digite ou use as setas"><br>
+            <button onclick="valores.salvar()">Adicionar</button>
+            <br> <br>
+            <h2>Cálculo do segudo maior número inserido</h2>
+        </div>
+        <div>
+            <p id="imprimir"></p>
+        </div>
+    </main>
+    
+</body>
+</html>
